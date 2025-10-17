@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #495057;
+  }
+  
+  h4 {
+    color: #495057;
+  }
+  
+  /* Container for responsiveness */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Styling the charts */
+  canvas {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  /* Make the tables responsive */
+  .table {
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+  
+  /* Styling for the row spacing */
+  .row {
+    margin-top: 20px;
+  }
+  
+  form input, form button {
+    margin-top: 10px;
+  }
+  

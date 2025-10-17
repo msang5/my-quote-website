@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sangola Manmohan | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    h3 {
+      color: #9ca3af;
+      font-weight: normal;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .about {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    .about h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #0078ff;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/photo.jpg" alt="Sangola Manmohan">
+    <h1>Sangola Manmohan</h1>
+    <h3>Python & Web Developer | Django | REST APIs | SQL</h3>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m <strong>Sangola Manmohan</strong>, a Python Developer with hands-on experience in <strong>Django</strong>, <strong>Flask</strong>, and building RESTful APIs.  
+      I love solving complex backend problems and designing clean, scalable web applications.  
+      Check out some of my projects below 👇</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h2>Sales Dashboard</h2>
+          <p>Interactive data visualization dashboard showing real-time sales analytics.</p>
+          <a href="https://msang5.github.io/sales-dashboard/" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <h2>My Quote Website</h2>
+          <p>A simple web app that displays random motivational quotes.</p>
+          <a href="https://msang5.github.io/my-quote-website/" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <h2>GitHub Profile</h2>
+          <p>All my public projects, open-source contributions, and code repositories.</p>
+          <a href="https://github.com/msang5" target="_blank">Visit GitHub</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Sangola Manmohan | Built with ❤️ using HTML & CSS
+  </footer>
+</body>
+</html>
